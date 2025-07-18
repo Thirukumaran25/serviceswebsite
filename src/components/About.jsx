@@ -39,7 +39,7 @@ function About() {
         </div>
         <div className="mt-2 p-2 md:w-1/2 lg:w-1/2 md:mr-8 md:mt-0 lg:mr-18 lg:mt-0">
            <div className="flex">
-                <h1 className="font-bold text-xl"><span class="underline underline-offset-8">ABO</span>UT US</h1>
+                <h1 className="font-bold text-xl"><span className="underline underline-offset-8">ABO</span>UT US</h1>
                   <img src={image13} className="h-8" alt="" />
               </div>
           
