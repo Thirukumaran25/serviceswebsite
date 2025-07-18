@@ -27,7 +27,7 @@ function Bms() {
       <div className="text-center my-8 px-4 md:px-8 lg:px-16">
         <div className="flex items-center justify-center">
           <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">
-            OUR SERVI<span class="underline underline-offset-8">CES</span>
+            OUR SERVI<span className="underline underline-offset-8">CES</span>
           </h1>
           <img src={image16} className="h-8" alt="" />
         </div>
