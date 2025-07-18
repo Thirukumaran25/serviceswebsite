@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import logo from "../images/Logo.png";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useNavigate} from "react-router-dom";
 import "../App.css";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     const selectedPath = event.target.value;
     if (selectedPath) {
-      console.log("Navigating to:", selectedPath);
+      navigate(selectedPath);
+      setIsMenuOpen(false);
     }
   };
 
