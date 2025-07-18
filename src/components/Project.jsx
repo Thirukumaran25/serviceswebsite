@@ -27,7 +27,7 @@ function Project() {
         </div>
       </div>
       <div className="flex items-center justify-center lg:mt-10">
-        <h1 className="text-xl font-bold text-center mt-2">OUR PROJE<span class="underline underline-offset-8">CTS</span></h1>
+        <h1 className="text-xl font-bold text-center mt-2">OUR PROJE<span className="underline underline-offset-8">CTS</span></h1>
         <img src={image13} className="h-8" alt="" />
       </div>
       <h1 className="text-[#4B69A9] text-2xl font-semibold text-center">
