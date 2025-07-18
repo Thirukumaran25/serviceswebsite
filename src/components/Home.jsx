@@ -104,7 +104,7 @@ function Home() {
         </div>
         <div className="mt-2 p-2 md:w-1/2 lg:w-1/2 md:mr-8 md:mt-0 lg:mr-18 lg:mt-0">
           <div className="flex">
-            <h1 className="font-bold text-xl p-2"> <span class="underline underline-offset-8">ABO</span>UT US</h1>
+            <h1 className="font-bold text-xl p-2"> <span className="underline underline-offset-8">ABO</span>UT US</h1>
             <img src={image16} className="h-8" alt="" />
           </div>
           <p className="mt-8 font-semibold text-md">Welcome To ZAHRIX!</p>
@@ -142,7 +142,7 @@ function Home() {
       </div>
 
       <div className="flex lg:mt-10 justify-center">
-        <h1 className="text-xl font-bold text-center">OUR SERVI<span class="underline underline-offset-8">CES</span> </h1>
+        <h1 className="text-xl font-bold text-center">OUR SERVI<span className="underline underline-offset-8">CES</span> </h1>
         <img src={image16} className="h-8" alt="" />
       </div>
       <h1 className="text-[#4B69A9] text-2xl font-semibold text-center">
@@ -203,7 +203,7 @@ function Home() {
       </div>
 
       <div className="flex lg:mt-10 justify-center">
-        <h1 className="text-xl font-bold text-center">OUR PROJ<span class="underline underline-offset-8">ECTS</span></h1>
+        <h1 className="text-xl font-bold text-center">OUR PROJ<span className="underline underline-offset-8">ECTS</span></h1>
         <img src={image16} className="h-8" alt="" />
       </div>
 
@@ -266,7 +266,7 @@ function Home() {
 
       <div className="flex lg:mt-10 p-4 justify-center bg-blue-50">
         <h1 className="text-3xl font-bold text-center">
-          OUR TESTIMONI<span class="underline underline-offset-8">ALS</span>
+          OUR TESTIMONI<span className="underline underline-offset-8">ALS</span>
         </h1>
         <img src={image16} className="h-8" alt="" />
       </div>
